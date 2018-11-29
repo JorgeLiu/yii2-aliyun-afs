@@ -13,7 +13,7 @@
     "require": {},
 	"autoload": {
          "psr-4": {
-           "jorgeliu\\AliyunAFS":"src/AFS"
+           "jorgeliu\\AliyunAFS\\":"src/AFS"
          },
         "classmap": [
            "src/CORE/"
