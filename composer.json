@@ -1,0 +1,25 @@
+{
+    "name": "jorgeliu/yii2-aliyun-afs",
+    "description": "yii2-aliyun-afs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge",
+            "email": "646607417@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+	"autoload": {
+         "psr-4": {
+           "jorgeliu\\AliyunAFS":"src/AFS"
+         },
+        "classmap": [
+           "src/CORE/"
+        ],
+        "files": [
+          "src/CORE/Config.php"
+        ]
+    }
+}
